@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         FileOutputStream fos = null;
 
         try {
-        EditText textBox = (EditText) view.findViewById(R.id.editor);
+        EditText textBox = (EditText) findViewById(R.id.editor);
         String text = textBox.getText().toString();
 
 
